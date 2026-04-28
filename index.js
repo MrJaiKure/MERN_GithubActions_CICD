@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('🚀 DevOps CI/CD Pipeline is Working! really hurryy');
+  res.send('🚀 DevOps CI/CD Pipeline is Working! And This Pipeline is deployed Using Github Actions');
 });
 
 app.get('/health', (req, res) => {
